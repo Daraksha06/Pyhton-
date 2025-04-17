@@ -2,3 +2,6 @@ today's topics : all the basics python
 https://github.com/Chintan358/08Apr_python_2025
 refer to sir's repo and do parallelly all the assignments and assessments
 
+17/4 task 
+binary hex oct dec : conversion and details
+armstrong no of 3 digit and 4 digit 
