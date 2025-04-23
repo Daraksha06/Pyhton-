@@ -5,3 +5,9 @@ refer to sir's repo and do parallelly all the assignments and assessments
 17/4 task 
 binary hex oct dec : conversion and details
 armstrong no of 3 digit and 4 digit 
+
+19/4 task 
+Decimal to all number sys and all nuumber sys to decimal , and all num sys to each other conversion  task 
+
+22/4 task 
+diamond pattern 
