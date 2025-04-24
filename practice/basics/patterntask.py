@@ -1,5 +1,5 @@
 # diamond pattern task
-n = 3  # Number of rows in the top half
+n = 3 
 
 # Top half
 for i in range(1, n + 1):
