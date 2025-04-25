@@ -16,3 +16,4 @@ diamond pattern
 patterns on github
 till list all the concepts
 assignmnent till list 
+hacker rank profile, and solve 4-5 questions 
