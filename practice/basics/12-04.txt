@@ -17,3 +17,7 @@ patterns on github
 till list all the concepts
 assignmnent till list 
 hacker rank profile, and solve 4-5 questions 
+
+hw : 08-05-2025
+youtube video downloader.
+qr code generator using 3rd party module in python 

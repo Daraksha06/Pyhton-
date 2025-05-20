@@ -1,0 +1,15 @@
+str = input("Enter the string: ")
+myl = list(str.split(" "))
+# print(myl)
+# mynum = []
+# for i in myl:
+#     mylen = len(i)
+#     print(mylen)
+#     mynum.append(mylen)
+# print(mynum)
+# maxl = max(mynum)
+# maxlind = mynum.index(maxl)
+# print("Maximum length:", maxl)
+# print("Index of word with max length:", maxlind)
+# print("Longest word:", myl[maxlind])
+print(max(myl))
