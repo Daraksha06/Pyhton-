@@ -1,17 +1,16 @@
 import mysql.connector
-# Connect to MySQL server
 con = mysql.connector.connect(
     host="localhost",
-    user="your_username",
-    password="your_password",
-    database="your_database_name"
+    user="root",
+    password='root',
+    port=3306,
+    database="DARAKSHA"
 )
-# Create a cursor
+
 cursor = con.cursor()
-# Execute a query
-cursor.execute("SELECT * FROM your_table")
-# Fetch and print results
-for row in cursor.fetchall():
-    print(row)
-# Close the connection
+
+# cursor.execute("CREATE DATABASE DARAKSHA")
+# cursor.execute("CREATE TABLE reg(id int primary key, name varchar(20) , email varchar(50))")
+cursor.execute("INSERT INTO  reg VALUES(1,'Daraksha', 'daraksha@gmail.com')")
+con.commit()
 con.close()
