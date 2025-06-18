@@ -19,12 +19,13 @@ p{
     margin-left: 40px;
     margin-top: -5px;
 }
-.sec2{
+form{
    
     width: 350px;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    background-color: white;
 }
 .sec2 input{
     width: 100%;
@@ -57,8 +58,9 @@ input:focus{
     color: white;
     font-weight: bolder;
     font-size: 20px;
+    margin-top: 5px;
 }
-a{
+#a1{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -66,7 +68,7 @@ a{
     margin :20px 0px  
     
 }
-a:hover{
+#a1:hover{
     text-decoration: underline;
 }
 #btn2{
@@ -91,4 +93,25 @@ a:hover{
 #btn2:hover{
     background-color:rgb(23, 159, 32);
     border: 1px solid rgb(23, 159, 32);
+}
+
+#a2{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-right: 4px;
+}
+#a2:hover{
+    text-decoration: underline;
+}
+.span1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+#span1, #span2 {               
+  font-size: 16px;
+  color: red;
 }

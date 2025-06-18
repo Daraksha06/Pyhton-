@@ -14,14 +14,18 @@
         </section>
         <section class="sec2">
             <form action="">
-                <input type="text" placeholder="Email address or phone number "><br>
-                <input type="text" placeholder="Password" id="pass"> <br>
+                <input type="text" placeholder="Email address or phone number " id="uname" onkeyup="validate()"><br>
+                <span id="span1"></span>
+                <input type="text" placeholder="Password" id="pass" onkeyup="validate()"> <br>
+                <span id="span2"></span>
                 <button type="submit" id="btn1">Log in</button> <br>
-                <a href="#">Forgotten Password?</a> 
+                <a  id="a1" href="#">Forgotten Password?</a> 
                 <hr>
                 <button type="submit" id="btn2">Create new account</button> <br>
             </form>
+            <span class="span1"> <a id="a2" href="">Create a Page </a> for a celebrity, brand or business.</span>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
