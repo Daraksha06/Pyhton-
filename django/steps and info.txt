@@ -11,7 +11,7 @@ py -m django startproject <project_name> .
 create app : 
 py manage.py startapp <appname>
 
-register app in settiong.py file : 
+register app in setting.py file : 
 installed_app  :[
     '<appname>'
 ]
