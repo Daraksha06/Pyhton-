@@ -33,7 +33,6 @@ admin username : admin
 mail: admin@gmail.com
 password : daraksha
 
-
 in myproject -> urls.py -> add path for when the page load our app1 should run 
 from django.urls import path,include
 eg  path('',include("myapp1.urls"))
@@ -42,4 +41,12 @@ copy urls.py from myproject to myapp1
 
 in myapp1 -> urls.py
 from myapp1.views import * 
- path("",index,name="index")
+path("",index,name="index")
+
+----------------------------------------------
+make one folder named static 
+myproject--> settings.py , add this  
+STATIC_URL = 'static/'
+STATICFILES_DIRS  = [
+    BASE_DIR/"static"
+] 
