@@ -1,6 +1,6 @@
 Create VENV : 
 py -m venv <envname>
-envname/script/activate
+envname/scripts/activate
 
 Install django : 
 pip install django
