@@ -50,3 +50,75 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS  = [
     BASE_DIR/"static"
 ] 
+
+---------------------------------------------------
+
+---static resource--- [css, js, image] 
+STATIC_URL = '/static'
+STATICFILES_DIRS = [
+        <STATIC FOLDER PATH>
+]
+
+---dynamic resource---
+MEDIA_URL = '/MEDIA'
+MEDIA_ROOT = <MEDIA FOLDER PATH>
+
+-----USE STATIC RESOUCE IN HTML----
+{%laod static%} - in html file
+
+
+--------base.html-------
+commoncode----
+-------------
+
+{%block content%}{%endbloack%}
+--------------
+---------------
+--------------
+
+use base .html in html other files:
+{%extends 'base.html'%}
+
+
+*******************MODAL*****************
+create modle models.py of myapp: 
+ex : 
+class Student(models.model):
+        fieldname : datatypes
+
+register modle in admin.py of myapp : 
+---import modle in admin file
+admin.site.register(Model name)
+ 
+then do migration commands
+*******************Shell***************
+py manage.py shell
+
+ORM : ORM stands for Object-Relational Mapping.
+
+It allows you to interact with your database using Python code, instead of writing raw SQL queries.
+
+In Django, every model (like Student) maps to a database table, and each object/record is an instance of that model.
+
+insert data : Ref [Studnet(name,email,age)] 
+
+st = Student(name="",email="",age=)
+st.save()
+
+Student.object.create(name="",email="",age=)
+
+viewData : 
+Student.objects.all()
+Student.objects.get(id or pk = 1)
+
+deletedata : 
+
+st  =Student.objects.get(id or pk = 1)
+st.delete()
+
+update : 
+st = Student.objects.get(id or pk = 1)
+st.name = ""
+st.email=""
+st.age = 
+st.save()
